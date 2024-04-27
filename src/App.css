@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 40px;
+  border: 0;
+  background-color: #282c34;
+  font-family: 'Roboto', sans-serif;
+}
+.App_garageBtn {
+  margin-right: 10px;
+}
+
+/* Garage */
+.garage {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign_img {
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.numberData {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+}
+
+/* Winners */
+
+/* Race */
+.race {
+  display: flex;
+}
+.race_ResetRemove Button:nth-child(2) {
+  margin-top: 4px;
+}
+.race_AB Button:nth-child(2) {
+  margin-top: 4px;
+}
+.race_ResetRemove {
+  margin-right: 8px;
+}
+.race div {
+  display: flex;
+  flex-direction: column;
+}
